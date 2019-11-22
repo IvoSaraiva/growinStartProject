@@ -6,6 +6,9 @@ import growinupscala.model.Resource
 
 import scala.language.higherKinds
 
+/**
+ * Mock implementation of [[BetterService]].
+ */
 case class BetterResourceService[F[_]](resource: Resource)(implicit F: Monad[F]) extends BetterService[F, Resource] {
   def create(resource: JSON): F[Id] = F.pure("SomeId")
 
