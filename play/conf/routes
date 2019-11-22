@@ -1,0 +1,9 @@
+GET    /resourcea/:id       growinupscala.controllers.ResourceControllerA.getAction(id: String)
+PUT    /resourcea/:id       growinupscala.controllers.ResourceControllerA.putAction(id: String)
+DELETE /resourcea/:id       growinupscala.controllers.ResourceControllerA.deleteAction(id: String)
+POST   /resourcea           growinupscala.controllers.ResourceControllerA.postAction
+
+GET    /resourceb/:id       growinupscala.controllers.ResourceControllerB.getAction(id: String)
+PUT    /resourceb/:id       growinupscala.controllers.ResourceControllerB.putAction(id: String)
+DELETE /resourceb/:id       growinupscala.controllers.ResourceControllerB.deleteAction(id: String)
+POST   /resourceb           growinupscala.controllers.ResourceControllerB.postAction
